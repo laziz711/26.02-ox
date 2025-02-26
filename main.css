@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Inter", serif;
+    background-color: #f4f2f2;
+}
+
+
+header {
+    border-bottom: 2px solid #DEDBDB;
+    background-color: white;
+}
+
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 0;
+}
+
+
+.nav__left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.card__nav__right {
+    display: flex;
+    gap: 15px;
+}
+
+
+.card {
+    background-color: white;
+    width: 650px;
+    border-radius: 50px;
+    border: 1px solid #DEDBDB;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.card__nav {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    padding: 0 50px;
+}
+
+.color {
+    color: #F0400F;
+}
+
+
+
+.card__h1 {
+    text-align: center;
+    color: #0E0D5D;
+    font-size: 48px;
+    margin-top: 127px;
+}
+
+.card__ota {
+    display: flex;
+    gap: 82px;
+    justify-content: center;
+    background-color: #F5F5F5;
+    width: 533px;
+    font-size: 28px;
+    margin: 39px 40px;
+    border-radius: 20px;
+}
+
+
+.bcc {
+    background-color: white;
+    width: 220px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 8px;
+}
+
+.pp {
+    color: #757575;
+    margin: 8px;
+
+}
+
+.card__text {
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid #75757530;
+}
+
+.card__texxt {
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    margin-top: 39px;
+    border: none;
+    border: 1px solid #75757530;
+}
+
+input::placeholder {
+    font-size: 24px;
+}
+
+.card__chek {
+    text-align: center;
+}
+
+
+.cd {
+    text-align: center;
+    color: #000000A3;
+    margin-top: 18px;
+}
+
+
+.oo {
+    width: 202px;
+    height: 67px;
+    border-radius: 20px;
+    font-size: 24px;
+    color: white;
+    background-color: #F69E86;
+    border: none;
+}
+
+
+.card__btn {
+display: flex;
+justify-content: flex-end;
+margin:  58px;
+}
